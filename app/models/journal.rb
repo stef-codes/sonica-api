@@ -1,4 +1,4 @@
 class Journal < ApplicationRecord
-    has_many :songs
+    belongs_to :song
     validates :entry_text, presence: true, uniqueness: true
 end
