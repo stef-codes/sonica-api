@@ -1,5 +1,5 @@
 class Song < ApplicationRecord
-    belongs_to :journal
-    validates :trackName, presence: true
-    validates :trackViewUrl, uniqueness: true
+    has_many :journals
+    # validates :trackName, presence: true
+    # validates :trackViewUrl, uniqueness: true
 end
