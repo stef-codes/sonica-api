@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  trackName: MyString
+  artistName: MyString
+  collectionName: MyString
+  primaryGenreName: MyString
+  artworkUrl100: MyString
+  trackViewUrl: MyString
+  previewUrl: MyString
+
+two:
+  trackName: MyString
+  artistName: MyString
+  collectionName: MyString
+  primaryGenreName: MyString
+  artworkUrl100: MyString
+  trackViewUrl: MyString
+  previewUrl: MyString
