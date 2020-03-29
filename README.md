@@ -1,24 +1,23 @@
-# README
+# Sonica API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This API supports the front-end application found here
+https://github.com/stef-codes/sonica-frontend
 
-Things you may want to cover:
+## Installation
 
-* Ruby version
+To run this API, you first need to install the necessary gems using this command:
+```
+bundle install
+```
 
-* System dependencies
+## Usage
 
-* Configuration
+You can get the server running with a simple command: 
 
-* Database creation
+```
+rails s 
+```
 
-* Database initialization
+## Note 
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This backened is running on localhost:3001. You can change the proxy to have it run on your port of choice
